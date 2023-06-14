@@ -1,1 +1,1 @@
-from bsignalspatialarr.BSignalSpatialArr import rearrange_features
+from BSignalSpatialArr import rearrange_features
