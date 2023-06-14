@@ -27,7 +27,7 @@ Here's an example of how to use the rearrange_features() function:
 
 ```python
 import numpy as np
-from brain_signal_processing import rearrange_features
+from bsignalspatialarr import rearrange_features
 
 # Example features array with shape (num_samples, num_features, num_bands, num_electrodes)
 features = np.ones((10, 1, 4, 19))
@@ -35,7 +35,7 @@ features = np.ones((10, 1, 4, 19))
 # Rearrange the features using default settings
 rearranged_features = rearrange_features(features)
 
-print(rearranged_features.shape)  # Output: (10, 9, 60)
+print(rearranged_features.shape)  # Output: (10, 7, 45)
 ```
 
 You can customize the behavior of rearrange_features() using the following parameters:
