@@ -14,4 +14,4 @@ rearranged_features = rearrange_features(features)
 plt.matshow(rearranged_features[0])
 
 plt.show()
-print(rearranged_features.shape)  # Output: (10, 9, 60)
+print(rearranged_features.shape)  # Output: (10, 7, 45)
