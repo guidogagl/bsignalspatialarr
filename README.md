@@ -6,7 +6,7 @@
 
 Brain Signal Spatial Arrangement (BSSA) is a Python package that provides utilities for preprocessing brain signal features. It includes a function `rearrange_features()` for rearranging the extracted features from brain signals.
 
-The proposed rearrangment schema has proved to increase the performances of CNNs for different brain-signal classification tasks, such as (EEG based subject-dependent emotion recognition)[https://10.1109/ACCESS.2023.3268233] or (Brain-Heart Interplay (BHI) based multiclass emotion recognition)[https://10.1109/NER52421.2023.10123758].
+The proposed rearrangment schema has proved to increase the performances of CNNs for different brain-signal classification tasks, such as [EEG based subject-dependent emotion recognition](https://10.1109/ACCESS.2023.3268233) or [Brain-Heart Interplay (BHI) based multiclass emotion recognition](https://10.1109/NER52421.2023.10123758).
 
 ## Features
 
@@ -19,7 +19,7 @@ The proposed rearrangment schema has proved to increase the performances of CNNs
 You can install BSSA using pip:
 
 ```shell
-pip install git+
+pip install git+https://github.com/guidogagl/bsignalspatialarr
 ```
 
 # Usage
